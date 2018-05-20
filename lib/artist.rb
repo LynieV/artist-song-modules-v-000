@@ -11,14 +11,14 @@ class Artist
 
   @@artists = []
 
-  def initialize
-    @@artists << self
-    @songs = []
-  end
+  #def initialize
+    #@@artists << self
+    #@songs = []
+  #end
 
-  def self.all
-    @@artists
-  end
+  #def self.all
+    #@@artists
+  #end
 
   def add_song(song)
     @songs << song
